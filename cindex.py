@@ -18,5 +18,9 @@ a3 = creature('crustEr',20,1, 'stone')
 
 index = open('cindex.txt','r')
 
+teste = []
 for line in index:
-    print(line)
+    x = line.split(',')
+    teste.append(x)
+
+print(teste)
