@@ -26,4 +26,3 @@ class creature():
 a1 = creature('Azilo',6,3,'dark')
 a2 = creature('Beam',12,2,'light')
 a3 = creature('cruster',20,1, 'stone')
-
